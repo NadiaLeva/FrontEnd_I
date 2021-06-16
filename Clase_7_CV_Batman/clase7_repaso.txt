@@ -1,0 +1,54 @@
+Introducción a CSS
+==================
+Tipos de vinculación: 	
+    Vinculación externa: 	<link>
+    Vinculación interna: 	<style></style>
+    Vinculación en línea: 	style=””
+
+Sintazis de una regla de estilo:
+    Selector {				    -> a quien? .. vamos a modificar
+        Propiedad: valor;		-> que característica? … vamos a cambiar. -> declaración
+    }					        -> cuanto?... va a valer esa propiedad 
+
+Lista de seectores
+https://developer.mozilla.org/es/docs/Web/CSS/CSS_Selectors
+https://www.w3schools.com/cssref/css_selectors.asp
+    Nombre	                     Símbolo    Ejemplo	            Significado
+    --------------------------------------------------------------------------------------------------------------
+    Agrupación de selectores	    ,	    p, a, div { }	    Se aplican estilos a varios elementos.
+    Selector descendiente		            #page div { }	    Se aplican estilos a elementos dentro de otros.
+    Selector hijo	                >	    #page > div { }	    Se aplican estilos a elementos hijos directos.
+    Selector hermano adyacente	    +	    div + div { }	    Se aplican estilos a elementos que siguen a otros.
+    Selector hermano general	    ~	    div ~ div { }	    Se aplican estilos a elementos al mismo nivel.
+    Selector universal	            *	    #page * { }	        Se aplican estilos a todos los elementos.
+
+Fuente
+======
+    font-family:  Calibri, Arial, Helvetica, sans-serif;
+
+    Lista de unidades
+    https://www.w3schools.com/cssref/css_units.asp
+        px
+        %   -> relativo al padre
+        em  -> el tamaño de la letra M, relativo al padre
+        rem -> Root Em
+
+Colores
+========
+    Ejemplo: color rojo
+        color: #FF0000;
+        color: rgb(255, 0, 0);
+        color: red;
+
+    Ejemplo: color rojo con transparenca al 50%
+        color: #FF000080;               -> uso 80 porque es la mitad en hexadecimal entre 00 y FF
+        color: rgba(255, 0, 0, 0.5);
+        color: red; opacity: 0.5;
+
+    Tipos de colores admitidos: https://www.w3schools.com/cssref/css_colors_legal.asp
+    Lista de Colores por nombre
+        https://www.w3schools.com/cssref/css_colors.asp
+        https://htmlcolorcodes.com/color-names/
+
+
+

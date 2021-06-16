@@ -13,9 +13,10 @@ header h1{
     font-size: 35px;
 }
 main{
-    margin-left: 234px;
-    margin-top: 119px;
+    /* margin-left: 234px; */
+    /* margin-top: 119px; */
     max-width: 1041px;
+    margin: 50px auto; 
 }
 h2{
     background-color: #C4C4C4;
@@ -29,6 +30,7 @@ section dl{
 
 footer{
     text-align: center;
+    vertical-align: middle;
     background-color: #005677;
     color:#FFFFFF;
     font-size: 20px;
