@@ -1,0 +1,36 @@
+body{
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    background-color: #E6E6E6;
+    text-align: center;
+}
+header h1{
+    background-color: #C4C4C4;
+    color: #005677;
+    font-size: 35px;
+}
+main{
+    margin-left: 234px;
+    margin-top: 119px;
+    max-width: 1041px;
+}
+h2{
+    background-color: #C4C4C4;
+    color: #005677;
+    font-size: 20px;
+}
+section dl{
+    margin-left: 40px;
+    font-size: 15px;
+}
+
+footer{
+    text-align: center;
+    background-color: #005677;
+    color:#FFFFFF;
+    font-size: 20px;
+}
+
