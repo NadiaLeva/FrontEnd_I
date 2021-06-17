@@ -1,10 +1,14 @@
+@font-face {
+    font-family: 'lemon_tuesday';
+    src: url(../fonts/lemon_tuesday.ttf);
+}
 body{
     width: 80%;
     max-width: 1041px;
     margin: 50px auto; 
-    font-family: 'Lora', serif;
     background-color: #FFF9F5;
     color:#9B8884;
+    font-family: 'Lora', serif;
 }
 
 header{
@@ -12,14 +16,17 @@ header{
     text-align: center;
 }
 
-h2{
-    font-family: 'Delius Unicase', cursive;
+h2,footer{
     background-color: #FDB8B6;
+    font-family: 'lemon_tuesday', serif;
+    vertical-align: middle;
+}
+h2{
+    /* font-family: 'Delius Unicase', cursive; */
+    
     font-size: 20px;
 }
 
 footer{
     text-align: center;
-    vertical-align: middle;
-    background-color: #FDB8B6;
 }
