@@ -1,7 +1,9 @@
+/* .fonts */
 @font-face {
     font-family: 'lemon_tuesday';
     src: url(../fonts/lemon_tuesday.ttf);
 }
+
 body{
     width: 80%;
     max-width: 1041px;
@@ -9,24 +11,28 @@ body{
     background-color: #FFF9F5;
     color:#9B8884;
     font-family: 'Lora', serif;
+    height: 100vh;
 }
 
 header{
-    background-color: #FFF9F5;
     text-align: center;
 }
 
 h2,footer{
     background-color: #FDB8B6;
     font-family: 'lemon_tuesday', serif;
+    font-size: 20px;
     vertical-align: middle;
 }
-h2{
-    /* font-family: 'Delius Unicase', cursive; */
-    
-    font-size: 20px;
+
+span.negrita{
+    font-weight: bold;
+}
+span.italica{
+    font-style: italic;
 }
 
+/* .footer */
 footer{
     text-align: center;
 }
