@@ -17,7 +17,11 @@ body{
 header{
     text-align: center;
 }
-
+img.imagen_redonda{
+    width:300px;
+    height:300px;
+    border-radius:150px;
+}
 h2,footer{
     background-color: #FDB8B6;
     font-family: 'lemon_tuesday', serif;
