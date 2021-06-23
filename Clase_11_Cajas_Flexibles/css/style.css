@@ -1,0 +1,17 @@
+/* .body */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header.div nav{,
+    background-color: #000000;
+    color: #F3F3F3;
+    font-size: 16px;
+    line-height: 19px;
+    }
+
+
+/*main*/
+div.mainContainer{
+    background-image: url('./img/delivery.png');
+    background-size: 490px 350px;
+}
