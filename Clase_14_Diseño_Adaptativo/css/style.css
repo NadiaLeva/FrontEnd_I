@@ -1,34 +1,45 @@
-
+/*GENERAL*/
 * {
     box-sizing: border-box;
     margin: 0px;
+    padding: 0px;
 }
 
+/*BODY*/
 body {
     font-family: "Roboto", sans-serif;
+    font-size: 1rem;
 }
 
+/*PRIMER BANNER*/
 #bar-discount {
-    background-color: #1cd1b0;
-    height: 38px;
-    padding: 10px;
+    background-color: #D1891C;
+    display: flex;
+    height: 61px;
 }
 
 #bar-discount p {
-    font-size: 15px;
+    color: #333333;
+    font-size: 48px;
+    padding-left: 67px;
 }
 
+/*HEADER*/
 header {
-    height: 101px;
-    padding: 28px;
     background-color: #00669f;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 162px;
     position: sticky;
     top: 0;
     z-index: 2;
 }
 
 h1 {
-    font-size: 40px;
+    color: #FFFFFF;
+    font-size: 72px;
+    padding-left: 67px;
 }
 
 .main-div {
@@ -39,12 +50,21 @@ h1 {
 
 .card {
     display: inline-block;
+    flex-wrap: wrap;
     position: relative;
     width: 300px;
     height: 529px;
     margin-right: 32px;
 }
 
+main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    gap: 30px;
+}
 #background {
     width: 300px;
     height: 193px;
@@ -58,6 +78,8 @@ h1 {
     top: 128px;
     left: 90px;
     z-index: 1;
+    height: 120px;
+    width: 120px;
 }
 
 #like {
@@ -69,6 +91,7 @@ h1 {
 
 #body {
     background-color: #e5e5e5;
+    display:flex;
     width: 300px;
     height: 336px;
     position: absolute;
@@ -89,6 +112,7 @@ h2 {
     left: 16px;
 }
 
+/*BUTOONS*/
 button {
     background-color: #00669f;
     color: white;
@@ -96,14 +120,49 @@ button {
     bottom: 18.48px;
     left: 85px;
 }
-
 button p {
     padding: 15px 37px;
     font-size: 15px;
 }
 
+/*FOOTER*/
 footer {
     background-color: #00669F;
     padding: 15px 30px;
     color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+footer img{
+    height: 2rem;
+}
+
+
+@media screen and (max-width: 768px){
+    header{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        footer img{
+            height: 1.5rem;
+        }
+    }
+}
+
+@media screen and (max-width: 481px){
+    flex-direction: column;
+    footer img{
+        height: 1rem;
+    }
+}
+    /*header nav ul li{
+        display: none;
+        visibility: hidden; /*no lo muestra pero sigue ocupando el lugar*/
+    
+/* header nav ::before{
+/* content: 'Hola'; */
+/* font-family: 'Font Awesome 5 Free';
+/* font-weight: 400; /*Los iconos gratis solo aceptan tamaño 400 o 900*/
+/*font-size: 2rem;
+content: '\f0c9'; */

@@ -102,8 +102,29 @@ button p {
     font-size: 15px;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#login-form{
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    
+}
+
 footer {
     background-color: #00669F;
     padding: 15px 30px;
     color: #ffffff;
+}
+
+/*TABLET*/
+@media (max-width: ) {
+    
+}
+
+/*MOBILE*/
+@media screen {
+    
 }
